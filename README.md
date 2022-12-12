@@ -22,7 +22,7 @@
 > ```
 
 ### bat写个简单的计时器脚本
-```
+```bat
 @echo off
 title=计时器
 set b=1
