@@ -20,3 +20,22 @@
 > %1 mshta vbscript:CreateObject("Shell.Application").ShellExecute("cmd.exe","/c %~s0 ::","","runas",1)(window.close)&&exit
 > cd /d "%~dp0"
 > ```
+
+### bat写个简单的计时器脚本
+```
+@echo off
+title=计时器
+set b=1
+
+:dao1
+set /a b=b-1
+ping -n 2 -w 500 127.1>nul
+cls
+echo 倒计时：%b%秒
+if %b%==0 (goto q)  else (goto dao1)
+
+:q
+set /p m=请输入倒数时间(s)：
+set b=%m%
+goto dao1l
+```
