@@ -1,4 +1,4 @@
-## <p align="center" style="color.red">每天学习一点点，工资涨的快一点--Ljx</p>
+## <p align="center" style="color.red">每天学习一点点--Ljx</p>
 
 ### PDF文件编辑权限被加密使用python解密  
 
